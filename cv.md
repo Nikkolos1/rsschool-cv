@@ -10,7 +10,7 @@ _discord name: Inshallah(@nikkolos1);_
 
 **EDUCATION:**
 
-_Energy college (2011-2015)_
+_Energy college (2011-2015);_
 _Higher technical education - BSATU(2016-2022);_
 
 **WORK:**
