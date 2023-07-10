@@ -1,11 +1,12 @@
 body, html {
-    height: 100%;
+    height: 145%;
  }
  body {
-    font-family: 'Mulish', sans-serif;
+    font-family: 'Gill Sans,sans-serif';
+    font-size: 22px;
     background-image: url(https://abrakadabra.fun/uploads/posts/2021-12/1640976798_1-abrakadabra-fun-p-fon-dlya-rezyume-2.jpg);
     background-color:aquamarine;
-    background-size: 115%;
+    background-size: 102%;
     display: flex;
     justify-content: center;
     flex-basis: auto;
@@ -53,4 +54,7 @@ body, html {
  }
  .nav-submenu-link:hover {
     background: #36253f;
+ }
+ P {
+   text-align: center;
  }
