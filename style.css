@@ -1,73 +1,56 @@
-html{
-    height: 50%;
-    font-family: Arial, Helvetica, sans-serif;
-    --primary-color: #074ca7;
-    --secondary-color: #052e07;
-    --background-color: #ff6b08;
-    background-repeat: no-repeat;
-}
-* {
-    color: var(--secondary-color);
-}
-h1 {
-    color: var(--primary-color);
-    margin-bottom: 0.25em;
-}
-
-h2 {
-    color: var(--secondary-color);
-    font-size: 1em;
-    margin-top: 0;
-    margin-bottom: 1em;
-}
-h3 {
-    color: var(--secondary-color)
-
-}
-a {
-    color: var(--primary-color);
-
-}
-
-section {
-    margin-bottom: 3em;
-    position: relative;
-}
-
-.cv{
-    max-width: 800px;
-    margin: 0 auto;
-}
-.contacts {
-    margin-bottom: 2em;
-
-}
-.contact {
+body, html {
+    height: 100%;
+ }
+ body {
+    font-family: 'Mulish', sans-serif;
+    background-image: url(https://abrakadabra.fun/uploads/posts/2021-12/1640976798_1-abrakadabra-fun-p-fon-dlya-rezyume-2.jpg);
+    background-color:aquamarine;
+    background-size: 115%;
     display: flex;
-    display: -webkit-box;
-    display: -ms-flexbox;
-
-}
-.contact__type {
-    min-width: 90px;
-}
-.experience {
-    display: flex;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    margin-bottom: 2em;
-}
-.experience__date{
-          min-width: 185px;
-          margin-bottom: 1em;
-    }
-
-
-.experience__name {
-    font-weight: bold;
-}
-@media (max-width: 575px) {
-    .experience {
-        display: block;
-    }
-}
+    justify-content: center;
+    flex-basis: auto;
+    align-items: center;
+ }
+ .nav {
+    list-style-type: none;
+    border-radius: 10px;
+    background: #666;
+    margin: 0;
+    padding: 0;
+    width: 700px;
+    overflow: hidden;
+ }
+ 
+ .nav-item {
+    font-size: 20px;
+    background: #9701f0;
+    border-bottom: 1px solid rgba(63, 46, 73, 0.3);
+ }
+ 
+ .nav-item:last-child {
+    border-bottom: none;
+ }
+ 
+ .nav-link, .nav-submenu-link {
+    text-decoration: none;
+    padding: 16px 20px;
+    display: block;
+    color: #fff;
+ }
+ 
+ .nav-submenu {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.5s;
+    background: #3f2e49;
+ }
+ .nav-submenu:target {
+    max-height: 50rem;
+ }
+ .nav-submenu-link {
+    font-size: 16px;
+    background: transparent;
+ }
+ .nav-submenu-link:hover {
+    background: #36253f;
+ }
