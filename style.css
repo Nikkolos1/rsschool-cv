@@ -1,9 +1,73 @@
-html,body {
-  font-family: Arial, serif;
-  font-size: 16px;
-  margin: 0;
-  padding: 0;
+html{
+    height: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    --primary-color: #074ca7;
+    --secondary-color: #052e07;
+    --background-color: #ff6b08;
+    background-repeat: no-repeat;
 }
-table {
-  border-collapse: collapse;
+* {
+    color: var(--secondary-color);
+}
+h1 {
+    color: var(--primary-color);
+    margin-bottom: 0.25em;
+}
+
+h2 {
+    color: var(--secondary-color);
+    font-size: 1em;
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+h3 {
+    color: var(--secondary-color)
+
+}
+a {
+    color: var(--primary-color);
+
+}
+
+section {
+    margin-bottom: 3em;
+    position: relative;
+}
+
+.cv{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.contacts {
+    margin-bottom: 2em;
+
+}
+.contact {
+    display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+
+}
+.contact__type {
+    min-width: 90px;
+}
+.experience {
+    display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    margin-bottom: 2em;
+}
+.experience__date{
+          min-width: 185px;
+          margin-bottom: 1em;
+    }
+
+
+.experience__name {
+    font-weight: bold;
+}
+@media (max-width: 575px) {
+    .experience {
+        display: block;
+    }
 }
