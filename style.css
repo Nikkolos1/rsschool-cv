@@ -4,8 +4,9 @@ body, html {
  body {
     font-family: 'Gill Sans,sans-serif';
     font-size: 22px;
+    background-image: url(https://abrakadabra.fun/uploads/posts/2021-12/1640976798_1-abrakadabra-fun-p-fon-dlya-rezyume-2.jpg);
     background-image: url(https://github.com/Nikkolos1/rsschool-cv/blob/main/1675306060_top-fon-com-p-fon-dlya-ofitsialno-delovoi-prezentatsii-88.jpg);
-    background-color:aquamarine;
+    background-color: aquamarine;
     background-size: 102%;
     display: flex;
     justify-content: center;
