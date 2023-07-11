@@ -1,9 +1,61 @@
-html,body {
-  font-family: Arial, serif;
-  font-size: 16px;
-  margin: 0;
-  padding: 0;
-}
-table {
-  border-collapse: collapse;
-}
+body, html {
+    height: 160%;
+ }
+ body {
+    font-family: 'Gill Sans,sans-serif';
+    font-size: 22px;
+    background-image: url(https://abrakadabra.fun/uploads/posts/2021-12/1640976798_1-abrakadabra-fun-p-fon-dlya-rezyume-2.jpg);
+    background-image: url(https://github.com/Nikkolos1/rsschool-cv/blob/main/1675306060_top-fon-com-p-fon-dlya-ofitsialno-delovoi-prezentatsii-88.jpg);
+    background-color: aquamarine;
+    background-size: 102%;
+    display: flex;
+    justify-content: center;
+    flex-basis: auto;
+    align-items: center;
+ }
+ .nav {
+    list-style-type: none;
+    border-radius: 10px;
+    background: #666;
+    margin: 0;
+    padding: 0;
+    width: 700px;
+    overflow: hidden;
+ }
+ 
+ .nav-item {
+    font-size: 20px;
+    background: #9701f0;
+    border-bottom: 1px solid rgba(63, 46, 73, 0.3);
+ }
+ 
+ .nav-item:last-child {
+    border-bottom: none;
+ }
+ 
+ .nav-link, .nav-submenu-link {
+    text-decoration: none;
+    padding: 16px 20px;
+    display: block;
+    color: #fff;
+ }
+ 
+ .nav-submenu {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.5s;
+    background: #3f2e49;
+ }
+ .nav-submenu:target {
+    max-height: 50rem;
+ }
+ .nav-submenu-link {
+    font-size: 16px;
+    background: transparent;
+ }
+ .nav-submenu-link:hover {
+    background: #36253f;
+ }
+ P {
+   text-align: center;
+ }
